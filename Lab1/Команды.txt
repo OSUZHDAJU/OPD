@@ -1,0 +1,102 @@
+Задание 1
+mkdir cacturne1 mantine1 primeape2
+echo "satk=4 sdef=6 spd=9">buneary3
+echo "Тип диеты Nullivore">duskull1
+echo -e "Развитые\nспособности Swift Swim">golduck7
+cd cacturne1/
+mkdir zorua shellos
+echo -e "satk=8 sdef=5\nspd=7">houndour
+echo "Развитые способности Hydration">marshtomp
+echo -e "Тип\nпокемона WATER NONE">vaporeon
+cd ..
+cd mantine1/
+mkdir zebstrika klink misdreavus
+echo -e "Ходы Aqua Tail Body Slam Covet\nDynamicpunch Fire Punch Focus Punch Fury Cutter Helping Hand Hyper\nVoice Ice Punch Iron Tail Knock Off Last Resort Mud-Slap Rollout Shock\nWave Sleep Talk Snore Sucker Punch Super Fang Swift Thunderpunch Trick\nWater Pulse Uproar">sentret
+echo "satk=4 sdef=8 spd=12">sneasel
+cd ..
+cd primeape2/
+mkdir stoutland lillipup
+echo -e "Живет Beach\nFreshwater">golduck
+echo -e "weight=191.8 height=59.0 atk=14\ndef=10">conkeldurr
+echo -e "Способности Metronome Sweet Kiss Yawn Encore Follow\nWe Wish Ancientpower Safeguard Baton Pass Double-Edge Last Resort\nAfter You">togetic
+cd..
+
+Задание 2
+chmod 600 buneary3
+chmod 004 duskull1
+chmod 404 golduck7
+chmod 576 cacturne1/zorua
+chmod 440 cacturne1/houndour
+chmod 062 cacturne1/marshtomp
+chmod 440 cacturne1/vaporeon
+chmod 770 cacturne1/shellos  
+chmod 512 cacturne1
+chmod 770 mantine1/zebstrika
+chmod 330 mantine1/klink
+chmod 550 mantine1/misdreavus
+chmod 044 mantine1/sentret
+chmod 444 mantine1/sneasel
+chmod 576 mantine1
+chmod 570 primeape2/stoutland
+chmod 750 primeape2/lillipup
+chmod 640 primeape2/golduck
+chmod 620 primeape2/conkeldurr
+chmod 664 primeape2/togetic
+chmod 573 primeape2
+
+Задание 3
+cp golduck7 mantine1/klink
+
+chmod 777 cacturne1/marshtomp
+cat cacturne1/marshtomp cacturne1/marshtomp>buneary3_87
+chmod 062 cacturne1/marshtomp
+
+ln -s /home/s311712/lab0/mantine1/ Copy_98
+
+chmod 777 primeape2
+cat golduck7>primeape2/conkeldurrgolduck
+chmod 573 primeape2
+
+chmod 777 primeape2
+ln duskull1 primeape2/conkeldurrduskull
+chmod 573 primeape2
+
+cp -r primeape2 primeape2/lillipup
+
+chmod 777 mantine1
+ln -s /home/s311712/lab0/golduck7 mantine1/sneaselgolduck
+chmod 576 mantine1
+
+Задание 4
+wc -l m* */m* */*/m* 2>&1|cat 1>/tmp/hsperfdata_s311712/lab0_4_1
+
+ls -ltu s* */s* */*/s* 2>/dev/null|head -3
+
+cat -n  *k */*k */*/*k|sort
+
+ls -lRrtc *k */*k */*/*k 2>&1|head -3
+
+ls -ltuR 2>/dev/null|tail -2
+
+ls -Rlrs 2>/dev/null |grep *ldu*|head -4
+
+Задание 5
+rm duskull1
+
+chmod 777 cacturne1/
+rm cacturne1/houndour
+chmod 512 cacturne1/
+
+chmod 777 mantine1/
+rm mantine1/sneaselgoldu*
+chmod 576 mantine1/
+
+chmod 777 primeape2/
+rm primeape2/conkeldurrdusku*
+chmod 573 primeape2
+
+chmod 777 mantine1/*
+rm -r mantine1/
+
+rmdir mantine1/misdreavus
+rmdir: directory "mantine1/misdreavus": Directory does not exist
